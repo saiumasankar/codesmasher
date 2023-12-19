@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="display: flex; justify-content: center;">
+    <form action="submit" style="display: flex; flex-direction: column; justify-content: center; padding: 3%; width: 40%; margin-top: 2%; background-color: rgb(21, 26, 38);">
+        <div style="display: flex; justify-content: center; font-size: 150%; color: white;"><u>REGISTER HERE</u></div>
+        <div style="color: white; display: flex;; flex-direction: column; width: 55%; margin-top: 10%;">
+            <label for="firstname">First Name<sup style="color: red;">*</sup>: </label>
+            <input type="text" id="firstname">
+        </div>
+        <div style="color: white; display: flex;; flex-direction: column; width: 55%; margin-top: 5%;">
+            <label for="lastname">Last Name<sup style="color: red;">*</sup>: </label>
+            <input type="text" id="lastname">
+        </div>
+        <div style="color: white; display: flex;; flex-direction: column; width: 55%; margin-top: 5%;">
+            <label for="password">Password<sup style="color: red;">*</sup>: </label>
+            <input type="password" id="password">
+        </div>
+        <div style="color: white; display: flex;; flex-direction: column; width: 55%; margin-top: 5%;">
+            <label for="confirmpassword">Confirm Password<sup style="color: red;">*</sup>: </label>
+            <input type="password" id="confirmpassword">
+        </div>
+        <div style="color: white; display: flex;; flex-direction: column; width: 55%; margin-top: 5%;">
+            <label for="emailid">Email<sup style="color: red;">*</sup>: </label>
+            <input type="email" id="emailid">
+        </div>
+        <div style="color: white; display: flex;; flex-direction: column; width: 55%; margin-top: 5%;">
+            <label for="mobile">Phone<sup style="color: red;">*</sup>: </label>
+            <input type="tel" maxlength="10" minlength="8">
+        </div>
+        <div style="color: white; display: flex;; flex-direction: column; width: 55%; margin-top: 5%;">
+            <label for="dob">Date of Birth<sup style="color: red;">*</sup>: </label>
+            <input type="date" id="dob">
+        </div>
+        <div style="color: white; display: flex;; flex-direction: column; width: 55%; margin-top: 5%;">
+            <label for="address">Address<sup style="color: red;">*</sup>: </label>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        </div>
+        <div style="color: white; display: flex;; flex-direction: row; width: 55%; margin-top: 5%; justify-content: space-around;">
+            <label for="gender">Gender<sup style="color: red;">*</sup>: </label>
+            <input type="radio" id="male" name="gender"value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="male" value="female" name="gender">
+            <label for="female">Female</label>
+        </div>
+        <div style="color: white; display: flex;; flex-direction: column; width: 55%; margin-top: 5%;">
+            <button id="submit" style="background-color: rgb(204, 204, 242); width: 50%;">Submit</button>
+        </div>
+
+    </form>
+</body>
+</html>
